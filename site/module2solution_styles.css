@@ -8,48 +8,53 @@ body {
 	margin: 0;
 }
 
-.box {
-	background-color: grey;
-	margin: 5px 0px 5px 0px;
+/* CSS for title */
+
+#title {
+	margin-top: 40px;
+	margin-bottom: 40px;
+	text-align: center;
 }
 
+/* CSS for text */
+
+.box {
+	position: relative;
+}
 
 #foodname{
-	background-color: #66c9f2;
-	width: 75px;
-	border: 2px solid black;
-	padding: 5px;
-	float right;
-	margin: 0;
-	text-align:center;
-	float: right;
+	position: absolute;
+	background-color:blue;
+	border: 1px solid black;
+	width:75px;
+	padding: 3px;
+	text-align: center;
 }
 #foodname2{
-	background-color: #66c9f2;
-	width: 75px;
-	margin: 0;
-	border: 2px solid black;
-	padding: 5px;
-	text-align:center;
-	float: right;
+	position: absolute;
+	background-color:blue;
+	border: 1px solid black;
+	width:75px;
+	padding: 3px;
+	text-align: center;
 }
 #foodname3{
-	background-color: #66c9f2;
-	width: 75px;
-	margin:0;
-	border: 2px solid black;
-	padding: 5px;
-	text-align:center;
-	float:right;
+	position: absolute;
+	background-color:blue;
+	border: 1px solid black;
+	width:75px;
+	padding: 3px;
+	text-align: center;
 }
 
 .content {
-	width: 90%;
-	margin-left: auto
-	margin-right: auto;
-	color: white;
-	text-align: justify;
-	clear: right;
+	background-color:grey;
+	border: 1px solid black;
+	padding:10px;
+	width: 95%;
+	margin-left: auto;
+	margin-right:auto;
+	text-align:justify;
 }
 
 
@@ -66,7 +71,6 @@ body {
 	.col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-5, 
 	.col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11,	.col-lg-12 {
 	float: left;
-	border: 1px solid black;
 }
 
 	.col-lg-1 {
@@ -116,6 +120,7 @@ body {
 	.col-lg-12 {
 		width: 100%;
 	}
+
 }
 
 
@@ -124,7 +129,6 @@ body {
 @media (min-width: 768px) and (max-width: 991px) {
   .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
     float: left;
-    border: 1px solid black;
 	 }
 
 	.col-md-1 {
@@ -168,10 +172,11 @@ body {
 	}
 
 	.col-md-11 {
-		width: 91,65%
+		width: 91.65%
 	}
 
 	.col-md-12 {
 		width: 100%;
 	}
+
 }
